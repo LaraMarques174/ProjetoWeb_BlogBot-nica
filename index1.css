@@ -1,0 +1,320 @@
+
+
+
+body{
+    background-image: url("./imagens/fundo.png");
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    color:#3c5c38;
+}
+
+nav a{
+    margin:0 20px;
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.banner{
+    margin:20px auto;
+    width:90%;
+    height:380px;
+    border-radius:20px;
+
+    background-image:url("imagens/plant2.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.banner h1{
+    color:white;
+    font-size:36px;
+    width:700px;
+    margin-bottom:20px;
+}
+
+.barra-pesquisa{
+    display: flex;
+    margin-top: 15px;
+}
+
+.barra-pesquisa input{
+    padding: 10px;
+    width: 450px;
+}
+
+.botao{
+    padding: 10px 15px;
+    background: rgb(16, 91, 16);
+    color: rgb(200, 247, 193);
+}
+
+
+.categorias{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:-50px;
+}
+
+
+
+.card img{
+    width:40px;
+    margin-bottom:10px;
+}
+
+
+/* .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+ */
+
+
+
+load-more{
+    text-align: center;
+    margin: 20px;
+}
+
+load-more button{
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #4f6f4f;
+    color: white;
+    cursor: pointer;
+}
+
+
+video{
+    width:90%;
+    margin:60px auto;
+    height:200px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+
+.meio-site{
+    display:flex;
+    justify-content:center;   
+    align-items:center;
+    width:90%;
+    margin:60px auto;
+    gap:50px;
+}
+
+.conteudo-meio{
+    width:90%;
+    margin:60px auto;
+}
+
+
+.blog-preview{
+    display:flex;
+    gap:30px;
+    margin-top:20px;
+}
+
+.blog-card{
+    background:rgb(175, 236, 140);
+    padding:15px;
+    border-radius:15px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+    width:30%;
+}
+
+.blog-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+
+.galeria{
+    width:90%;
+    margin:60px auto;
+}
+
+.plantas{
+    display:flex;
+    gap:20px;
+}
+
+.plantas img{
+    width:200px;
+    border-radius:10px;
+}
+
+.tabela-terapeutica{
+    width:90%;
+    margin:60px auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th, td{
+    text-align:center;
+    padding:12px;
+    border:2px solid #4f6f52;
+}
+
+th{
+    background:#e6f0e6;
+}
+
+
+.subtitulo{
+    font-size: 20px;
+    color: #3d5a40;
+    margin-bottom: 50px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    color: #2f4f2f;
+}
+
+.item img{
+    width: 28px;
+    height: 28px;
+}
+
+
+.footer{
+    background-color: #c1f3b9;
+    color: rgb(11, 84, 12);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.hero{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.formulario{
+    background: #f8f6ee;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: left;
+}
+
+.formulario label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+
+ button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #5c7457;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ button:hover{
+    background-color: #4a5f47;
+}
+.botao{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #6b8e6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: #4f6f4f;
+    transform: scale(1.05);
+}
+.nav-pills .nav-link.active {
+  background-color: #3A7D44;
+}
+.nav-pills .nav-link {
+  color: #4CAF50;
+}
+header {
+  padding: 0;
+}
+.nav-pills .nav-link:hover {
+  background-color: #3e8e41;
+  color: white;
+}
