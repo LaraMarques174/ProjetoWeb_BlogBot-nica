@@ -16,12 +16,15 @@ h2{
     font-family: 'Playfair Display', serif;
     font-size: 30px;
 }
-.card-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.bloco {
+  background: white;
+  width: fit-content;
+  margin: 15px;
 }
-
+.bloco img{
+    width: 50px;
+    height: auto;
+}
 .logo{
     font-size:30px;
     font-weight:bold;
